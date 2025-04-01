@@ -6,7 +6,7 @@ from model import ConwayModel
 
 def agent_portrayal(agent):
     return {
-        "color": "white" if agent.state == 0 else "black",
+        "color": "red" if agent.state == 0 else "blue",
         "marker": "s",
         "size": 40,
     }
